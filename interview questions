@@ -1,0 +1,108 @@
+Q1.    What is the di􀃠erence between list and tuples in Python?
+Ans1.          List                                       Tuples     
+Lists are mutable i.e they can be edited.       Tuples are immutable (tuples are lists which can’t be edited).
+Lists are slower than tuples.                   Tuples are faster than list.
+Syntax: list_1 = [10, ‘Chelsea’, 20]            Syntax: tup_1 = (10, ‘Chelsea’ , 20)
+
+Q2.What are local variables and global variables in Python?
+Ans2.   Global Variables:Variables declared outside a function or in global space are called global variables. These variables can be accessed by any
+                         function in the program.
+        Local Variables: Any variable declared inside a function is known as a local variable. This variable is present in the local space and not in the
+                         global space.
+
+Q3.What is type conversion in Python?
+Ans3: Type conversion refers to the conversion of one data type iinto another.
+int() – converts any data type into integer type
+􀃖oat() – converts any data type into 􀃖oat type
+ord() – converts characters into integer
+hex() – converts integers to hexadecimal
+oct() – converts integer to octal
+tuple() – This function is used to convert to a tuple.
+set() – This function returns the type after converting to set.
+list() – This function is used to convert any data type to a list type.
+dict() – This function is used to convert a tuple of order (key,value) into a dictionary.
+str() – Used to convert integer into a string.
+complex(real,imag) – This functionconverts real numbers to complex(real,imag) number.
+
+Q4. What is the di􀃠erence between Python Arrays and lists?
+Ans4: Arrays and lists, in Python, have the same way of storing data. But, arrays can hold only a single data type elements whereas
+lists can hold any data type elements.
+
+Q5. What are functions in Python?
+Ans5: A function is a block of code which is executed only when it is called. To define a Python function, the def keyword is used.
+
+Q6.What is __init__?
+Ans6: __init__ is a method or constructor in Python. This method is automatically called to allocate memory when a new object/
+instance of a class is created. All classes have the __init__ method.
+
+Q7.What is a lambda function?
+Ans7: An anonymous function is known as a lambda function. This function can have any number of parameters but, can have
+just one statement.
+
+Q8. What is self in Python?
+Ans: Self is an instance or an object of a class. In Python, this is explicitly included as the 􀃕rst parameter. However, this is not the
+case in Java where it’s optional. It helps to di􀃠erentiate between the methods and attributes of a class with local variables.
+The self variable in the init method refers to the newly created object while in other methods, it refers to the object whose
+method was called.
+
+Q9. How does break, continue and pass work?
+Ans9: Break: Allows loop termination when some condition is met and the control is transferred
+             to the next statement.
+      Continue: Allows skipping some part of a loop when some speci􀃕c condition is met and the
+                control is transferred to the beginning of the loop
+      Pass: Used when you need some block of code syntactically, but you want to skip its
+            execution. This is basically a null operation. Nothing happens when this is execute.
+
+Q10. What does [::-1} do?
+Ans10: [::-1] is used to reverse the order of an array or a sequence.
+
+Q11. How can you randomize the items of a list in place in Python?
+Ans11: Consider the example shown below:
+from random import shuffle
+x = ['Keep', 'The', 'Blue', 'Flag', 'Flying', 'High']
+shuffle(x)
+print(x)
+The output of the following code is as below.
+['Flying', 'Keep', 'Blue', 'High', 'The', 'Flag']
+
+Q12  What are python iterators?
+Ans12: Iterators are objects which can be traversed though or iterated upon.
+
+Q13. What is the di􀃠erence between range & xrange?
+Ans13: For the most part, xrange and range are the exact same in terms of functionality. They both provide a way to generate a list
+of integers for you to use, however you please. The only di􀃠erence is that range returns a Python list object and x range returns
+an xrange object.
+This means that xrange doesn’t actually generate a static list at run-time like range does. It creates the values as you need them
+with a special technique called yielding. This technique is used with a type of object known as generators. That means that if you
+have a really gigantic range you’d like to generate a list for, say one billion, xrange is the function to use.
+This is especially true if you have a really memory sensitive system such as a cell phone that you are working with, as range will
+use as much memory as it can to create your array of integers, which can result in a Memory Error and crash your program. It’s a
+memory hungry beast.
+
+Q14. What is pickling and unpickling?
+Ans14 : Pickle module accepts any Python object and converts it into a string representation and dumps it into a 􀃕le by using dump
+function, this process is called pickling.
+
+Q15. What are the generators in python?
+Ans15: Functions that return an iterable set of items are called generators.
+
+Q16. How will you capitalize the first letter of string?
+Ans16: In Python, the capitalize() method capitalizes the 􀃕rst letter of a string. If the string already consists of a capital letter at the
+beginning, then, it returns the original string.
+
+Q17. How will you convert a string to all lowercase?
+Ans17: To convert a string to lowercase, lower() function can be used.
+
+Q18. What is the purpose of is, not and in operators?
+Ans18: Operators are special functions. They take one or more values and produce a corresponding result.
+is: returns true when 2 operands are true (Example: “a” is ‘a’)
+not: returns the inverse of the boolean value
+in: checks if some element is present in some sequence
+
+Q19. What is a dictionary in Python?
+Ans: The built-in datatypes in Python is called dictionary. It defines one-to-one relationship between keys and values. Dictionaries
+contain pair of keys and their corresponding values. Dictionaries are indexed by keys.
+
+Q20. What does len() do?
+Ans20: It is used to determine the length of a string, a list, an array, etc.
+
